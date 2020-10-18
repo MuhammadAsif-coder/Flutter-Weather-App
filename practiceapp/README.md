@@ -1,4 +1,8 @@
+<<<<<<< HEAD:practiceapp/README.md
 # practiceapp
+=======
+# Flutter Weather App
+>>>>>>> 1f1ee07b89825979afebe005bee16462d3b6f348:gift/README.md
 
 A new Flutter project.
 
