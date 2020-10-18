@@ -125,9 +125,9 @@ class MyAppState extends State<MyApp> {
       final lon = location.longitude;
 
       final weatherResponse = await http.get(
-          'https://api.openweathermap.org/data/2.5/weather?APPID=a18218abf71db4db2c91423ffa1d0d0c&lat=${lat.toString()}&lon=${lon.toString()}');
+          'https://api.openweathermap.org/data/2.5/weather?APPID=a182hdjsnd18abf71dyidb4db2c914nfk23ffa1d0d0c&lat=${lat.toString()}&lon=${lon.toString()}');
       final forecastResponse = await http.get(
-          'https://api.openweathermap.org/data/2.5/forecast?APPID=a18218abf71db4db2c91423ffa1d0d0c&lat=${lat.toString()}&lon=${lon.toString()}');
+          'https://api.openweathermap.org/data/2.5/forecast?APPID=a18218ab68dbjf71db4jdkdndb2c91423ndidme7ffa1d0d0c&lat=${lat.toString()}&lon=${lon.toString()}');
 
       if (weatherResponse.statusCode == 200 &&
           forecastResponse.statusCode == 200) {
